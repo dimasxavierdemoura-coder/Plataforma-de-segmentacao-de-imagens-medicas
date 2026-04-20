@@ -1,0 +1,14 @@
+streamlit
+numpy
+opencv-python
+Pillow
+torch
+torchvision
+matplotlib
+scikit-learn
+albumentations
+nibabel
+pydicom
+pytest
+synapseclient
+protobuf<4.24,>=3.19.6
