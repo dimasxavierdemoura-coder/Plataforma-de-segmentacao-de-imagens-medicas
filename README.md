@@ -1,8 +1,10 @@
-MedVision Assist
-Descritivo do Projeto MedVision Assist
+# MedVision Assist
+
+# 📊 Descritivo do Projeto MedVision Assist
+
 O MedVision Assist é uma plataforma automatizada de visão computacional médica desenvolvida para auxiliar profissionais de saúde e pesquisadores na segmentação e análise de imagens médicas, com foco em aplicações como diagnóstico assistido por IA. O projeto foi implementado como um workflow completo no Windows, elevando-o a um padrão de qualidade profissional (inspirado em práticas de organizações como a NASA), incluindo automação, reprodutibilidade, testes e preparação para produção.
 
-O Que o Projeto Faz?
+# 🚀 O Que o Projeto Faz?
 O MedVision Assist automatiza o ciclo completo de desenvolvimento e uso de modelos de IA para segmentação de imagens médicas, especificamente voltado para dados volumétricos como ressonâncias magnéticas (MRI) ou tomografias computadorizadas (CT). Ele permite:
 
 Download e organização automática de datasets: Baixa datasets públicos (como do Medical Segmentation Decathlon) via Synapse ou permite o uso de dados locais.
@@ -13,7 +15,7 @@ Validação e testes: Inclui testes automatizados para garantir precisão e robu
 Relatórios e logs: Gera CSVs, JSONs e heatmaps para análise de desempenho, facilitando auditoria e melhorias.
 O projeto transforma dados brutos em insights acionáveis, como estimativas de volume de lesões ou comparações de segmentações, ajudando em decisões clínicas ou pesquisas.
 
-Quais Tecnologias Utiliza?
+# 🛠️ Quais Tecnologias Utiliza?
 O projeto é construído com tecnologias modernas e open-source para garantir eficiência, escalabilidade e acessibilidade:
 
 Python 3.10+: Linguagem principal, com type hints para robustez.
@@ -28,7 +30,7 @@ pytest: Framework de testes automatizados para validar funções e inferência.
 Outros: Bibliotecas como pandas para relatórios, matplotlib para visualizações e tqdm para barras de progresso.
 O ambiente é configurado via start.bat para Windows, com virtual environments e dependências gerenciadas por requirements.txt.
 
-Qual é o Foco do Projeto?
+# 🎯 Qual é o Foco do Projeto?
 O foco principal é a segmentação precisa e automatizada de imagens médicas volumétricas, com ênfase em aplicações clínicas como detecção de tumores cerebrais ou análise de órgãos. Ele prioriza:
 
 Precisão clínica: Uso de métricas como Dice Score e IoU para avaliar desempenho médico-realista.
@@ -37,7 +39,7 @@ Acessibilidade: Suporte a múltiplos formatos (NIfTI/DICOM), processamento em lo
 Qualidade profissional: Testes rigorosos, documentação completa e preparação para produção, visando uso em ambientes hospitalares ou de pesquisa.
 Não é um modelo genérico de visão computacional, mas especializado em medicina, com validação contra datasets públicos para garantir confiabilidade.
 
-Qual a Usabilidade?
+# 👥 Qual a Usabilidade?
 O projeto é altamente usável, projetado para profissionais com conhecimentos básicos em Python ou medicina, sem necessidade de expertise avançada em IA:
 
 Automação total: O script start.bat guia o usuário desde o download de dados até o treinamento e inferência, com prompts para opções locais ou remotas.
@@ -47,7 +49,7 @@ Robustez: Trata erros comuns (ex.: arquivos corrompidos), valida datasets e gera
 Escalabilidade: Pode ser executado localmente no Windows ou containerizado via Docker para servidores.
 É ideal para prototipagem rápida em pesquisa ou uso clínico diário, com tempo de setup reduzido a minutos.
 
-O Que Pode Acrescentar no Dia-a-Dia do Profissional?
+# 💼 O Que Pode Acrescentar no Dia-a-Dia do Profissional?
 Para médicos, radiologistas e pesquisadores em saúde, o MedVision Assist acelera e aprimora o trabalho diário:
 
 Diagnóstico mais rápido e preciso: Segmenta automaticamente regiões de interesse em exames, reduzindo tempo de análise manual (de horas para minutos) e minimizando erros humanos.
